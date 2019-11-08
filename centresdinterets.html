@@ -4,39 +4,42 @@
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-		<title>www.cristianchretien.com/Centres d'intérêts</title>
+		<title>www.cristianchretien.com/centresdinterets</title>
 		<link rel="stylesheet"	type="text/css" href="css/style.css">
+		<link rel="stylesheet"	type="text/css" href="css/lightbox.min.css">
+		<script src="js/lightbox-plus-jquery.min.js"></script>
 	</head>
 	
 	<body>
-		
-		<div class="container">
-			<h1>Centres d'intérêts</h1>
-		</div>	
-		
-		<nav class="navbar">
-			<div class="container">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-				</ul>
+		<div class="wrapper">
+			<header>
+				<nav>
+					<div class="logo">
+						<img src="images/logocris.png" alt="Page Logo">
+					</div>
+					<ul class="nav-links">
+						<li><a href="index.html">Accueil</a></li>
+						<li><a href="mesmotivations.html">Mes motivations</a></li>
+						<li><a href="sitespreferes.html">Sites Préférés</a></li>
+						<li><a href="contact.html">Contact</a></li>	
+					</ul>	
+				</nav>			
+			</header>
+			<div class="wrapper-gallery">
+				<div class="photos">
+					<div class="photos-top">
+						<a href="images/aqua.jpg" data-lightbox="mygallery" data-title="Aquariophilie" alt="image aquarium"><img src="images/aqua-small.jpg"></a>
+						<a href="images/cyclisme.jpg" data-lightbox="mygallery" data-title="Cyclisme" alt="image cycliste"><img src="images/cyclisme-small.jpg"></a>
+					</div>
+					<div class="photos-bottom">
+						<a href="images/randonnee.jpg" data-lightbox="mygallery" data-title="Randonnée" alt="image paysage"><img src="images/randonnee-small.jpg"></a>
+						<a href="images/fleurs.jpg" data-lightbox="mygallery" data-title="Fleurs" alt="image fleurs"><img src="images/fleurs-small.jpg"></a>
+					</div>
+				</div>
 			</div>
-		</nav>
-	
-		<h3>Aquariophilie</h3>
-		<img src="images/aqua.jpg">
-		
-		<h3>Cyclisme</h3>
-		<img src="images/cyclisme.jpg">
-
-		<h3>Randonnée</h3>
-		<img src="images/randonnee.jpg">
-
-		<h3>Fleurs</h3>
-		<img src="images/fleurs.jpg">
-
-		<footer class="main-footer">
-			<p>Copyright &copy; 2019 Chrétien Cristian</p>	
-		</footer>
-	
+			<footer class="main-footer">
+				<p>Copyright &copy; 2019 Chrétien Cristian</p>	
+			</footer>
+		</div>
 	</body>
 </html>
